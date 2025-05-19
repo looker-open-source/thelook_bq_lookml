@@ -1,5 +1,6 @@
 connection: "the_look_bq_test"
 include: "/views/**/*.view" # include all the views
+## test
 
 ############ Base Explores #############
 
