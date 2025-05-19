@@ -1,4 +1,4 @@
-include: "/models/**/thelook_ecommerce_test.model.lkml"
+include: "/models/**/looker_developer_guide.model.lkml"
 view: order_facts {
   view_label: "Order Facts"
   derived_table: {
