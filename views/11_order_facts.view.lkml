@@ -1,4 +1,4 @@
-include: "/models/**/thelook_partner.model.lkml"
+include: "/models/**/thelook_ecommerce_test.model.lkml"
 view: order_facts {
   view_label: "Order Facts"
   derived_table: {
@@ -14,7 +14,6 @@ view: order_facts {
         sql: RANK() OVER (PARTITION BY user_id ORDER BY created_at) ;;
       }
     }
-    datagroup_trigger: ecommerce_etl
   }
 
   dimension: order_id {
