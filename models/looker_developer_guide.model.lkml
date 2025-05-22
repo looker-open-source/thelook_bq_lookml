@@ -1,8 +1,9 @@
-connection: "the_look_bq_test"
-include: "/views/**/*.view" # include all the views
-## test
+connection: "the_look_bq_test" # name of the database connection we created earlier
+include: "/views/**/*.view" # include all the view files in the "views" folder
 
-############ Base Explores #############
+
+
+############ Explores #############
 
 explore: order_items {
   label: "(1) Orders, Items and Users"
